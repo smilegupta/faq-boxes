@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Faq Boxes</title>
+  </head>
+  <body>
+    <h1>Frequently Asked Questions</h1>
+    <div class="faq-container">
+      <div class="faq">
+        <h3 class="faq-title">What is JSX</h3>
+        <p class="faq-text">
+          JSX is a shorthand for JavaScript XML. This is a type of file used by
+          React which utilizes the expressiveness of JavaScript along with HTML
+          like template syntax. This makes the HTML file really easy to
+          understand. This file makes applications robust and boosts its
+          performance.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="faq">
+        <h3 class="faq-title">
+          “In React, everything is a component.” Explain.
+        </h3>
+        <p class="faq-text">
+          Components are the building blocks of a React application’s UI. These
+          components split up the entire UI into small independent and reusable
+          pieces. Then it renders each of these components independent of each
+          other without affecting the rest of the UI.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="faq">
+        <h3 class="faq-title">What is Props</h3>
+        <p class="faq-text">
+          Props is the shorthand for Properties in React. They are read-only components which must be kept pure i.e. immutable. They are always passed down from the parent to the child components throughout the application. A child component can never send a prop back to the parent component. This help in maintaining the unidirectional data flow and are generally used to render the dynamically generated data.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="faq">
+        <h3 class="faq-title">What is a state in React and how is it used?</h3>
+        <p class="faq-text">
+          States are the heart of React components. States are the source of data and must be kept as simple as possible. Basically, states are the objects which determine components rendering and behavior. They are mutable unlike the props and create dynamic and interactive components. They are accessed via this.state().
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+    </div>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
